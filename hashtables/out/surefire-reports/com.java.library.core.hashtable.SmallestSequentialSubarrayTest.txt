@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.hashtable.SmallestSequentialSubarrayTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.java.library.core.hashtable.SmallestSequentialSubarrayTest
+findSubarray1(com.java.library.core.hashtable.SmallestSequentialSubarrayTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<com.java.library.core.datastructures.Tuple@1761e840> but was:<com.java.library.core.datastructures.Tuple@6c629d6e>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.hashtable.SmallestSequentialSubarrayTest.test(SmallestSequentialSubarrayTest.java:51)
+	at com.java.library.core.hashtable.SmallestSequentialSubarrayTest.findSubarray1(SmallestSequentialSubarrayTest.java:27)
+
+findSubarray2(com.java.library.core.hashtable.SmallestSequentialSubarrayTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<com.java.library.core.datastructures.Tuple@5ecddf8f> but was:<com.java.library.core.datastructures.Tuple@3f102e87>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.hashtable.SmallestSequentialSubarrayTest.test(SmallestSequentialSubarrayTest.java:51)
+	at com.java.library.core.hashtable.SmallestSequentialSubarrayTest.findSubarray2(SmallestSequentialSubarrayTest.java:37)
+
+findSubarray3(com.java.library.core.hashtable.SmallestSequentialSubarrayTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<com.java.library.core.datastructures.Tuple@27abe2cd> but was:<com.java.library.core.datastructures.Tuple@5f5a92bb>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.hashtable.SmallestSequentialSubarrayTest.test(SmallestSequentialSubarrayTest.java:51)
+	at com.java.library.core.hashtable.SmallestSequentialSubarrayTest.findSubarray3(SmallestSequentialSubarrayTest.java:47)
+

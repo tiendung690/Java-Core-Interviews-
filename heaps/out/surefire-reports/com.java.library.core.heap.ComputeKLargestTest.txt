@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.heap.ComputeKLargestTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.java.library.core.heap.ComputeKLargestTest
+kLargestInBinaryHeap1(com.java.library.core.heap.ComputeKLargestTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [7, 8, 9]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.heap.ComputeKLargestTest.test(ComputeKLargestTest.java:45)
+	at com.java.library.core.heap.ComputeKLargestTest.kLargestInBinaryHeap1(ComputeKLargestTest.java:22)
+
+kLargestInBinaryHeap2(com.java.library.core.heap.ComputeKLargestTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [5, 6, 7, 8, 9]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.heap.ComputeKLargestTest.test(ComputeKLargestTest.java:45)
+	at com.java.library.core.heap.ComputeKLargestTest.kLargestInBinaryHeap2(ComputeKLargestTest.java:31)
+

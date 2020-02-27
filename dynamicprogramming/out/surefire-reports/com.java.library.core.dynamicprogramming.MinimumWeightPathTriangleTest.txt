@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.dynamicprogramming.MinimumWeightPathTriangleTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.dynamicprogramming.MinimumWeightPathTriangleTest
+minimum1(com.java.library.core.dynamicprogramming.MinimumWeightPathTriangleTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<15> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.dynamicprogramming.MinimumWeightPathTriangleTest.test(MinimumWeightPathTriangleTest.java:34)
+	at com.java.library.core.dynamicprogramming.MinimumWeightPathTriangleTest.minimum1(MinimumWeightPathTriangleTest.java:21)
+
+minimum2(com.java.library.core.dynamicprogramming.MinimumWeightPathTriangleTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<20> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.dynamicprogramming.MinimumWeightPathTriangleTest.test(MinimumWeightPathTriangleTest.java:34)
+	at com.java.library.core.dynamicprogramming.MinimumWeightPathTriangleTest.minimum2(MinimumWeightPathTriangleTest.java:30)
+

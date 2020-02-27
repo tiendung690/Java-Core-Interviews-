@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.sorting.ComputeUnionTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.sorting.ComputeUnionTest
+unionOfIntervals1(com.java.library.core.sorting.ComputeUnionTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[com.java.library.core.sorting.ComputeUnion$Interval@c85fe0ee, com.java.library.core.sorting.ComputeUnion$Interval@45e2158f, com.java.library.core.sorting.ComputeUnion$Interval@2b2af09e]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.sorting.ComputeUnionTest.test(ComputeUnionTest.java:31)
+	at com.java.library.core.sorting.ComputeUnionTest.unionOfIntervals1(ComputeUnionTest.java:27)
+

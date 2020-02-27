@@ -1,0 +1,12 @@
+com\java\library\core\dynamicprogramming\MinimumWeightPathTriangle.class
+com\java\library\core\dynamicprogramming\CountPossibleTraversals.class
+com\java\library\core\dynamicprogramming\CountMovesToClimbStairs.class
+com\java\library\core\dynamicprogramming\SearchSequence2D.class
+com\java\library\core\dynamicprogramming\ComputeBinomialCoefficients.class
+com\java\library\core\dynamicprogramming\PrettyPrintingProblem.class
+com\java\library\core\dynamicprogramming\LongestNondecreasingSubsequence.class
+com\java\library\core\dynamicprogramming\ComputeScoreCombinations.class
+com\java\library\core\dynamicprogramming\KnapsackProblem.class
+com\java\library\core\dynamicprogramming\MaximumCoinsGain.class
+com\java\library\core\dynamicprogramming\BedBathBeyondProblem.class
+com\java\library\core\dynamicprogramming\ComputeLevenshtein.class

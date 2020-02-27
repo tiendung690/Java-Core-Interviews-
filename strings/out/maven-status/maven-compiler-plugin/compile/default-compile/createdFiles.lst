@@ -1,0 +1,13 @@
+com\java\library\core\string\LookAndSayProblem.class
+com\java\library\core\string\ComputeValidIPAddresses.class
+com\java\library\core\string\InterconvertStringAndInteger.class
+com\java\library\core\string\ReplaceAndRemove.class
+com\java\library\core\string\PalindromeAlphanumeric.class
+com\java\library\core\string\ReverseWordsInASentence.class
+com\java\library\core\string\BaseConversion.class
+com\java\library\core\string\RomanToDecimal.class
+com\java\library\core\string\SpreadsheetColumnEncoding.class
+com\java\library\core\string\FindFirstOccurrenceOfSubstring.class
+com\java\library\core\string\RunLengthEncoding.class
+com\java\library\core\string\StringSinusoidal.class
+com\java\library\core\string\ComputeMnemonicsPhoneNumber.class

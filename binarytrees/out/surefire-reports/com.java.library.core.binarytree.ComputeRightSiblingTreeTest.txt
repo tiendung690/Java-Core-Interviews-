@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.binarytree.ComputeRightSiblingTreeTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.binarytree.ComputeRightSiblingTreeTest
+constructRightSibling1(com.java.library.core.binarytree.ComputeRightSiblingTreeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected: com.java.library.core.datastructures.BinaryTreeLN<BinaryTree{data=A, left=B, right=C}> but was: com.java.library.core.datastructures.BinaryTreeLN<BinaryTree{data=A, left=B, right=C}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.ComputeRightSiblingTreeTest.test(ComputeRightSiblingTreeTest.java:59)
+	at com.java.library.core.binarytree.ComputeRightSiblingTreeTest.constructRightSibling1(ComputeRightSiblingTreeTest.java:25)
+
+constructRightSibling2(com.java.library.core.binarytree.ComputeRightSiblingTreeTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.java.library.core.binarytree.ComputeRightSiblingTreeTest.constructRightSibling2(ComputeRightSiblingTreeTest.java:48)
+

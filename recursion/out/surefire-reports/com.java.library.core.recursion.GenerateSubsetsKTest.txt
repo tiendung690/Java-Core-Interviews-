@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.recursion.GenerateSubsetsKTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.recursion.GenerateSubsetsKTest
+combinations1(com.java.library.core.recursion.GenerateSubsetsKTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.recursion.GenerateSubsetsKTest.test(GenerateSubsetsKTest.java:50)
+	at com.java.library.core.recursion.GenerateSubsetsKTest.combinations1(GenerateSubsetsKTest.java:24)
+
+combinations2(com.java.library.core.recursion.GenerateSubsetsKTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<4> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.recursion.GenerateSubsetsKTest.test(GenerateSubsetsKTest.java:50)
+	at com.java.library.core.recursion.GenerateSubsetsKTest.combinations2(GenerateSubsetsKTest.java:34)
+
+combinations3(com.java.library.core.recursion.GenerateSubsetsKTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.recursion.GenerateSubsetsKTest.test(GenerateSubsetsKTest.java:50)
+	at com.java.library.core.recursion.GenerateSubsetsKTest.combinations3(GenerateSubsetsKTest.java:45)
+

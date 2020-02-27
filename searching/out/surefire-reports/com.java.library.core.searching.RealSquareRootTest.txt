@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.searching.RealSquareRootTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.searching.RealSquareRootTest
+squareRoot1(com.java.library.core.searching.RealSquareRootTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1.51657508881031> but was:<0.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at org.junit.Assert.assertEquals(Assert.java:683)
+	at com.java.library.core.searching.RealSquareRootTest.test(RealSquareRootTest.java:35)
+	at com.java.library.core.searching.RealSquareRootTest.squareRoot1(RealSquareRootTest.java:17)
+
+squareRoot3(com.java.library.core.searching.RealSquareRootTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<730.9137760365445> but was:<0.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at org.junit.Assert.assertEquals(Assert.java:683)
+	at com.java.library.core.searching.RealSquareRootTest.test(RealSquareRootTest.java:35)
+	at com.java.library.core.searching.RealSquareRootTest.squareRoot3(RealSquareRootTest.java:24)
+
+squareRoot4(com.java.library.core.searching.RealSquareRootTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<316.22776601683796> but was:<0.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at org.junit.Assert.assertEquals(Assert.java:683)
+	at com.java.library.core.searching.RealSquareRootTest.test(RealSquareRootTest.java:35)
+	at com.java.library.core.searching.RealSquareRootTest.squareRoot4(RealSquareRootTest.java:31)
+

@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.binarysearchtrees.AreNodesOrderedTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec <<< FAILURE! - in com.java.library.core.binarysearchtrees.AreNodesOrderedTest
+totallyOrdered1(com.java.library.core.binarysearchtrees.AreNodesOrderedTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.AreNodesOrderedTest.test(AreNodesOrderedTest.java:60)
+	at com.java.library.core.binarysearchtrees.AreNodesOrderedTest.totallyOrdered1(AreNodesOrderedTest.java:25)
+
+totallyOrdered2(com.java.library.core.binarysearchtrees.AreNodesOrderedTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.AreNodesOrderedTest.test(AreNodesOrderedTest.java:60)
+	at com.java.library.core.binarysearchtrees.AreNodesOrderedTest.totallyOrdered2(AreNodesOrderedTest.java:35)
+
+totallyOrdered3(com.java.library.core.binarysearchtrees.AreNodesOrderedTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.AreNodesOrderedTest.test(AreNodesOrderedTest.java:60)
+	at com.java.library.core.binarysearchtrees.AreNodesOrderedTest.totallyOrdered3(AreNodesOrderedTest.java:45)
+
+totallyOrdered4(com.java.library.core.binarysearchtrees.AreNodesOrderedTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.AreNodesOrderedTest.test(AreNodesOrderedTest.java:60)
+	at com.java.library.core.binarysearchtrees.AreNodesOrderedTest.totallyOrdered4(AreNodesOrderedTest.java:55)
+

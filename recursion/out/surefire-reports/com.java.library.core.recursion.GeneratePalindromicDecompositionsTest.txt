@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.recursion.GeneratePalindromicDecompositionsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.recursion.GeneratePalindromicDecompositionsTest
+palindromicPartitioning1(com.java.library.core.recursion.GeneratePalindromicDecompositionsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<5> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.recursion.GeneratePalindromicDecompositionsTest.test(GeneratePalindromicDecompositionsTest.java:47)
+	at com.java.library.core.recursion.GeneratePalindromicDecompositionsTest.palindromicPartitioning1(GeneratePalindromicDecompositionsTest.java:24)
+
+palindromicPartitioning2(com.java.library.core.recursion.GeneratePalindromicDecompositionsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<12> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.recursion.GeneratePalindromicDecompositionsTest.test(GeneratePalindromicDecompositionsTest.java:47)
+	at com.java.library.core.recursion.GeneratePalindromicDecompositionsTest.palindromicPartitioning2(GeneratePalindromicDecompositionsTest.java:41)
+

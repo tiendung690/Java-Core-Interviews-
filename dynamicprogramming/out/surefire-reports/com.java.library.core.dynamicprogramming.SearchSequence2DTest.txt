@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.dynamicprogramming.SearchSequence2DTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.java.library.core.dynamicprogramming.SearchSequence2DTest
+isContained1(com.java.library.core.dynamicprogramming.SearchSequence2DTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.dynamicprogramming.SearchSequence2DTest.test(SearchSequence2DTest.java:44)
+	at com.java.library.core.dynamicprogramming.SearchSequence2DTest.isContained1(SearchSequence2DTest.java:22)
+
+isContained3(com.java.library.core.dynamicprogramming.SearchSequence2DTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.dynamicprogramming.SearchSequence2DTest.test(SearchSequence2DTest.java:44)
+	at com.java.library.core.dynamicprogramming.SearchSequence2DTest.isContained3(SearchSequence2DTest.java:40)
+

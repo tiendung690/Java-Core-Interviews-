@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.binarytree.TreeToLinkedListTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.java.library.core.binarytree.TreeToLinkedListTest
+createListOfLeaves1(com.java.library.core.binarytree.TreeToLinkedListTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[BinaryTree{data=1, left=null, right=null}, BinaryTree{data=2, left=null, right=null}]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.TreeToLinkedListTest.test(TreeToLinkedListTest.java:45)
+	at com.java.library.core.binarytree.TreeToLinkedListTest.createListOfLeaves1(TreeToLinkedListTest.java:24)
+
+createListOfLeaves2(com.java.library.core.binarytree.TreeToLinkedListTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[BinaryTree{data=1, left=null, right=null}, BinaryTree{data=3, left=null, right=null}, BinaryTree{data=5, left=null, right=null}, BinaryTree{data=7, left=null, right=null}]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.TreeToLinkedListTest.test(TreeToLinkedListTest.java:45)
+	at com.java.library.core.binarytree.TreeToLinkedListTest.createListOfLeaves2(TreeToLinkedListTest.java:32)
+
+createListOfLeaves3(com.java.library.core.binarytree.TreeToLinkedListTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[BinaryTree{data=28, left=null, right=null}, BinaryTree{data=0, left=null, right=null}, BinaryTree{data=17, left=null, right=null}, BinaryTree{data=641, left=null, right=null}, BinaryTree{data=257, left=null, right=null}, BinaryTree{data=28, left=null, right=null}]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.TreeToLinkedListTest.test(TreeToLinkedListTest.java:45)
+	at com.java.library.core.binarytree.TreeToLinkedListTest.createListOfLeaves3(TreeToLinkedListTest.java:41)
+

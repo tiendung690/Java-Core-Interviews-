@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.heap.ComputeKClosestTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.102 sec <<< FAILURE! - in com.java.library.core.heap.ComputeKClosestTest
+getKClosest1(com.java.library.core.heap.ComputeKClosestTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [Star{x=0.0, y=0.0, z=1.0}, Star{x=0.0, y=0.0, z=2.0}]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.heap.ComputeKClosestTest.test(ComputeKClosestTest.java:61)
+	at com.java.library.core.heap.ComputeKClosestTest.getKClosest1(ComputeKClosestTest.java:25)
+
+getKClosest2(com.java.library.core.heap.ComputeKClosestTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [Star{x=0.0, y=0.0, z=1.0}, Star{x=0.0, y=0.0, z=4.0}, Star{x=0.0, y=0.0, z=2.0}, Star{x=0.0, y=0.0, z=5.0}, Star{x=0.0, y=0.0, z=3.0}]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.heap.ComputeKClosestTest.test(ComputeKClosestTest.java:61)
+	at com.java.library.core.heap.ComputeKClosestTest.getKClosest2(ComputeKClosestTest.java:35)
+
+getKClosest3(com.java.library.core.heap.ComputeKClosestTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [Star{x=0.0, y=0.0, z=75.0}, Star{x=0.0, y=0.0, z=23.0}, Star{x=0.0, y=0.0, z=131.0}, Star{x=0.0, y=0.0, z=99.0}, Star{x=0.0, y=0.0, z=67.0}, Star{x=0.0, y=0.0, z=70.0}, Star{x=0.0, y=0.0, z=99.0}, Star{x=0.0, y=0.0, z=3.0}, Star{x=0.0, y=0.0, z=23.0}, Star{x=0.0, y=0.0, z=100.0}, Star{x=0.0, y=0.0, z=32.0}, Star{x=0.0, y=0.0, z=43.0}]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.heap.ComputeKClosestTest.test(ComputeKClosestTest.java:61)
+	at com.java.library.core.heap.ComputeKClosestTest.getKClosest3(ComputeKClosestTest.java:47)
+

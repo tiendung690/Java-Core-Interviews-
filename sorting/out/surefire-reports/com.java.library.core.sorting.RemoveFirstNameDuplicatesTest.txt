@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.sorting.RemoveFirstNameDuplicatesTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.sorting.RemoveFirstNameDuplicatesTest
+eliminateDuplicates1(com.java.library.core.sorting.RemoveFirstNameDuplicatesTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [Ian, David]
+Actual: [Ian, Ian]
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsString(AssertUtils.java:91)
+	at com.java.library.core.sorting.RemoveFirstNameDuplicatesTest.test(RemoveFirstNameDuplicatesTest.java:49)
+	at com.java.library.core.sorting.RemoveFirstNameDuplicatesTest.eliminateDuplicates1(RemoveFirstNameDuplicatesTest.java:23)
+
+eliminateDuplicates2(com.java.library.core.sorting.RemoveFirstNameDuplicatesTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [Ian]
+Actual: [Ian, Ian]
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsString(AssertUtils.java:91)
+	at com.java.library.core.sorting.RemoveFirstNameDuplicatesTest.test(RemoveFirstNameDuplicatesTest.java:49)
+	at com.java.library.core.sorting.RemoveFirstNameDuplicatesTest.eliminateDuplicates2(RemoveFirstNameDuplicatesTest.java:33)
+
+eliminateDuplicates3(com.java.library.core.sorting.RemoveFirstNameDuplicatesTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [Ian, David, Chazz]
+Actual: [Ian]
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsString(AssertUtils.java:91)
+	at com.java.library.core.sorting.RemoveFirstNameDuplicatesTest.test(RemoveFirstNameDuplicatesTest.java:49)
+	at com.java.library.core.sorting.RemoveFirstNameDuplicatesTest.eliminateDuplicates3(RemoveFirstNameDuplicatesTest.java:43)
+

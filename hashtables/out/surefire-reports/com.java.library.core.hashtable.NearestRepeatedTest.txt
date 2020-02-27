@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.hashtable.NearestRepeatedTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.java.library.core.hashtable.NearestRepeatedTest
+findNearest1(com.java.library.core.hashtable.NearestRepeatedTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.hashtable.NearestRepeatedTest.test(NearestRepeatedTest.java:43)
+	at com.java.library.core.hashtable.NearestRepeatedTest.findNearest1(NearestRepeatedTest.java:21)
+
+findNearest2(com.java.library.core.hashtable.NearestRepeatedTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.hashtable.NearestRepeatedTest.test(NearestRepeatedTest.java:43)
+	at com.java.library.core.hashtable.NearestRepeatedTest.findNearest2(NearestRepeatedTest.java:30)
+
+findNearest3(com.java.library.core.hashtable.NearestRepeatedTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<8> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.hashtable.NearestRepeatedTest.test(NearestRepeatedTest.java:43)
+	at com.java.library.core.hashtable.NearestRepeatedTest.findNearest3(NearestRepeatedTest.java:39)
+

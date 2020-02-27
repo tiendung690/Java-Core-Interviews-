@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.dynamicprogramming.ComputeLevenshteinTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.dynamicprogramming.ComputeLevenshteinTest
+levenschteinDistance1(com.java.library.core.dynamicprogramming.ComputeLevenshteinTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<4> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.dynamicprogramming.ComputeLevenshteinTest.test(ComputeLevenshteinTest.java:41)
+	at com.java.library.core.dynamicprogramming.ComputeLevenshteinTest.levenschteinDistance1(ComputeLevenshteinTest.java:19)
+
+levenschteinDistance2(com.java.library.core.dynamicprogramming.ComputeLevenshteinTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.dynamicprogramming.ComputeLevenshteinTest.test(ComputeLevenshteinTest.java:41)
+	at com.java.library.core.dynamicprogramming.ComputeLevenshteinTest.levenschteinDistance2(ComputeLevenshteinTest.java:28)
+
+levenschteinDistance3(com.java.library.core.dynamicprogramming.ComputeLevenshteinTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<9> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.dynamicprogramming.ComputeLevenshteinTest.test(ComputeLevenshteinTest.java:41)
+	at com.java.library.core.dynamicprogramming.ComputeLevenshteinTest.levenschteinDistance3(ComputeLevenshteinTest.java:37)
+

@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.hashtable.ComputeLCATest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.java.library.core.hashtable.ComputeLCATest
+LCA1(com.java.library.core.hashtable.ComputeLCATest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<com.java.library.core.datastructures.BinaryTreeParent@68fb2c38> but was:<com.java.library.core.datastructures.BinaryTreeParent@567d299b>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.hashtable.ComputeLCATest.test(ComputeLCATest.java:48)
+	at com.java.library.core.hashtable.ComputeLCATest.LCA1(ComputeLCATest.java:23)
+
+LCA2(com.java.library.core.hashtable.ComputeLCATest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<com.java.library.core.datastructures.BinaryTreeParent@2eafffde> but was:<com.java.library.core.datastructures.BinaryTreeParent@59690aa4>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.hashtable.ComputeLCATest.test(ComputeLCATest.java:48)
+	at com.java.library.core.hashtable.ComputeLCATest.LCA2(ComputeLCATest.java:34)
+
+LCA3(com.java.library.core.hashtable.ComputeLCATest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<com.java.library.core.datastructures.BinaryTreeParent@6842775d>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.hashtable.ComputeLCATest.test(ComputeLCATest.java:48)
+	at com.java.library.core.hashtable.ComputeLCATest.LCA3(ComputeLCATest.java:43)
+

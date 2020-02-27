@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.binarytree.ReconstructBinaryTreeWithMarkersTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.java.library.core.binarytree.ReconstructBinaryTreeWithMarkersTest
+reconstructPreorder1(com.java.library.core.binarytree.ReconstructBinaryTreeWithMarkersTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=0, left=1, right=2}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.ReconstructBinaryTreeWithMarkersTest.test(ReconstructBinaryTreeWithMarkersTest.java:44)
+	at com.java.library.core.binarytree.ReconstructBinaryTreeWithMarkersTest.reconstructPreorder1(ReconstructBinaryTreeWithMarkersTest.java:23)
+
+reconstructPreorder2(com.java.library.core.binarytree.ReconstructBinaryTreeWithMarkersTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=4, left=2, right=6}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.ReconstructBinaryTreeWithMarkersTest.test(ReconstructBinaryTreeWithMarkersTest.java:44)
+	at com.java.library.core.binarytree.ReconstructBinaryTreeWithMarkersTest.reconstructPreorder2(ReconstructBinaryTreeWithMarkersTest.java:31)
+
+reconstructPreorder3(com.java.library.core.binarytree.ReconstructBinaryTreeWithMarkersTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=314, left=6, right=6}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.ReconstructBinaryTreeWithMarkersTest.test(ReconstructBinaryTreeWithMarkersTest.java:44)
+	at com.java.library.core.binarytree.ReconstructBinaryTreeWithMarkersTest.reconstructPreorder3(ReconstructBinaryTreeWithMarkersTest.java:40)
+

@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.searching.FindMinAndMaxTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.searching.FindMinAndMaxTest
+findMinMax1(com.java.library.core.searching.FindMinAndMaxTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<com.java.library.core.datastructures.MinMax@51016012> but was:<com.java.library.core.datastructures.MinMax@29444d75>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.searching.FindMinAndMaxTest.test(FindMinAndMaxTest.java:34)
+	at com.java.library.core.searching.FindMinAndMaxTest.findMinMax1(FindMinAndMaxTest.java:22)
+
+findMinMax2(com.java.library.core.searching.FindMinAndMaxTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<com.java.library.core.datastructures.MinMax@2280cdac> but was:<com.java.library.core.datastructures.MinMax@1517365b>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.searching.FindMinAndMaxTest.test(FindMinAndMaxTest.java:34)
+	at com.java.library.core.searching.FindMinAndMaxTest.findMinMax2(FindMinAndMaxTest.java:30)
+

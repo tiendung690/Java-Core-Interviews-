@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.recursion.GenerateStringsTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.recursion.GenerateStringsTest
+generateBalancedParentheses1(com.java.library.core.recursion.GenerateStringsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: []
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsString(AssertUtils.java:91)
+	at com.java.library.core.recursion.GenerateStringsTest.test(GenerateStringsTest.java:48)
+	at com.java.library.core.recursion.GenerateStringsTest.generateBalancedParentheses1(GenerateStringsTest.java:20)
+
+generateBalancedParentheses2(com.java.library.core.recursion.GenerateStringsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [()]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsString(AssertUtils.java:91)
+	at com.java.library.core.recursion.GenerateStringsTest.test(GenerateStringsTest.java:48)
+	at com.java.library.core.recursion.GenerateStringsTest.generateBalancedParentheses2(GenerateStringsTest.java:28)
+
+generateBalancedParentheses3(com.java.library.core.recursion.GenerateStringsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [()(), (())]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsString(AssertUtils.java:91)
+	at com.java.library.core.recursion.GenerateStringsTest.test(GenerateStringsTest.java:48)
+	at com.java.library.core.recursion.GenerateStringsTest.generateBalancedParentheses3(GenerateStringsTest.java:36)
+
+generateBalancedParentheses4(com.java.library.core.recursion.GenerateStringsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [()()(), ()(()), (())(), (()()), ((()))]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsString(AssertUtils.java:91)
+	at com.java.library.core.recursion.GenerateStringsTest.test(GenerateStringsTest.java:48)
+	at com.java.library.core.recursion.GenerateStringsTest.generateBalancedParentheses4(GenerateStringsTest.java:44)
+

@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.dynamicprogramming.MaximumCoinsGainTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.dynamicprogramming.MaximumCoinsGainTest
+computeMaximum1(com.java.library.core.dynamicprogramming.MaximumCoinsGainTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<5> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.dynamicprogramming.MaximumCoinsGainTest.test(MaximumCoinsGainTest.java:40)
+	at com.java.library.core.dynamicprogramming.MaximumCoinsGainTest.computeMaximum1(MaximumCoinsGainTest.java:20)
+
+computeMaximum2(com.java.library.core.dynamicprogramming.MaximumCoinsGainTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<15> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.dynamicprogramming.MaximumCoinsGainTest.test(MaximumCoinsGainTest.java:40)
+	at com.java.library.core.dynamicprogramming.MaximumCoinsGainTest.computeMaximum2(MaximumCoinsGainTest.java:28)
+
+computeMaximum3(com.java.library.core.dynamicprogramming.MaximumCoinsGainTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<31> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.dynamicprogramming.MaximumCoinsGainTest.test(MaximumCoinsGainTest.java:40)
+	at com.java.library.core.dynamicprogramming.MaximumCoinsGainTest.computeMaximum3(MaximumCoinsGainTest.java:36)
+

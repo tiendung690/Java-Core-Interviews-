@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.binarysearchtrees.ReconstructBSTTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.binarysearchtrees.ReconstructBSTTest
+reconstruct1(com.java.library.core.binarysearchtrees.ReconstructBSTTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=1, left=0, right=2}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.ReconstructBSTTest.test(ReconstructBSTTest.java:35)
+	at com.java.library.core.binarysearchtrees.ReconstructBSTTest.reconstruct1(ReconstructBSTTest.java:23)
+
+reconstruct2(com.java.library.core.binarysearchtrees.ReconstructBSTTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=19, left=7, right=43}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.ReconstructBSTTest.test(ReconstructBSTTest.java:35)
+	at com.java.library.core.binarysearchtrees.ReconstructBSTTest.reconstruct2(ReconstructBSTTest.java:31)
+

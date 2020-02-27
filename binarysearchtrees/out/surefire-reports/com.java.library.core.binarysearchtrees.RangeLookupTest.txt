@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.binarysearchtrees.RangeLookupTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.binarysearchtrees.RangeLookupTest
+range1(com.java.library.core.binarysearchtrees.RangeLookupTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [2, 3, 4, 5]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsInt(AssertUtils.java:75)
+	at com.java.library.core.binarysearchtrees.RangeLookupTest.test(RangeLookupTest.java:56)
+	at com.java.library.core.binarysearchtrees.RangeLookupTest.range1(RangeLookupTest.java:25)
+
+range2(com.java.library.core.binarysearchtrees.RangeLookupTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [17, 19, 23, 29, 31]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsInt(AssertUtils.java:75)
+	at com.java.library.core.binarysearchtrees.RangeLookupTest.test(RangeLookupTest.java:56)
+	at com.java.library.core.binarysearchtrees.RangeLookupTest.range2(RangeLookupTest.java:34)
+
+range3(com.java.library.core.binarysearchtrees.RangeLookupTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [23, 29, 31, 37, 41]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsInt(AssertUtils.java:75)
+	at com.java.library.core.binarysearchtrees.RangeLookupTest.test(RangeLookupTest.java:56)
+	at com.java.library.core.binarysearchtrees.RangeLookupTest.range3(RangeLookupTest.java:43)
+
+range4(com.java.library.core.binarysearchtrees.RangeLookupTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [2, 3, 5, 7, 11, 17, 13]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsInt(AssertUtils.java:75)
+	at com.java.library.core.binarysearchtrees.RangeLookupTest.test(RangeLookupTest.java:56)
+	at com.java.library.core.binarysearchtrees.RangeLookupTest.range4(RangeLookupTest.java:52)
+

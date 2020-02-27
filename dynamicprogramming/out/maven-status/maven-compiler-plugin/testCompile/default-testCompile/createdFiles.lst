@@ -1,0 +1,12 @@
+com\java\library\core\dynamicprogramming\BedBathBeyondProblemTest.class
+com\java\library\core\dynamicprogramming\CountPossibleTraversalsTest.class
+com\java\library\core\dynamicprogramming\ComputeBinomialCoefficientsTest.class
+com\java\library\core\dynamicprogramming\KnapsackProblemTest.class
+com\java\library\core\dynamicprogramming\MinimumWeightPathTriangleTest.class
+com\java\library\core\dynamicprogramming\CountMovesToClimbStairsTest.class
+com\java\library\core\dynamicprogramming\LongestNondecreasingSubsequenceTest.class
+com\java\library\core\dynamicprogramming\ComputeLevenshteinTest.class
+com\java\library\core\dynamicprogramming\ComputeScoreCombinationsTest.class
+com\java\library\core\dynamicprogramming\SearchSequence2DTest.class
+com\java\library\core\dynamicprogramming\MaximumCoinsGainTest.class
+com\java\library\core\dynamicprogramming\PrettyPrintingProblemTest.class

@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.searching.IntegerSquareRootTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.java.library.core.searching.IntegerSquareRootTest
+squareRoot1(com.java.library.core.searching.IntegerSquareRootTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<4> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.searching.IntegerSquareRootTest.test(IntegerSquareRootTest.java:37)
+	at com.java.library.core.searching.IntegerSquareRootTest.squareRoot1(IntegerSquareRootTest.java:17)
+
+squareRoot2(com.java.library.core.searching.IntegerSquareRootTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.searching.IntegerSquareRootTest.test(IntegerSquareRootTest.java:37)
+	at com.java.library.core.searching.IntegerSquareRootTest.squareRoot2(IntegerSquareRootTest.java:25)
+
+squareRoot3(com.java.library.core.searching.IntegerSquareRootTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<13> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.searching.IntegerSquareRootTest.test(IntegerSquareRootTest.java:37)
+	at com.java.library.core.searching.IntegerSquareRootTest.squareRoot3(IntegerSquareRootTest.java:33)
+

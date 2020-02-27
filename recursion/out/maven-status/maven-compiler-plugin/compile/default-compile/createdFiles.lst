@@ -1,0 +1,11 @@
+com\java\library\core\recursion\TowersOfHanoi.class
+com\java\library\core\recursion\NQueens.class
+com\java\library\core\recursion\ComputeDiameter.class
+com\java\library\core\recursion\GeneratePermutations.class
+com\java\library\core\recursion\GenerateBinaryTrees.class
+com\java\library\core\recursion\GeneratePalindromicDecompositions.class
+com\java\library\core\recursion\GenerateStrings.class
+com\java\library\core\recursion\SudokuSolver.class
+com\java\library\core\recursion\ComputeGrayCode.class
+com\java\library\core\recursion\GeneratePowerSet.class
+com\java\library\core\recursion\GenerateSubsetsK.class

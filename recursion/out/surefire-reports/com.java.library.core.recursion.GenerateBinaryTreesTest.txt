@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.recursion.GenerateBinaryTreesTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.recursion.GenerateBinaryTreesTest
+generateAllBinaryTrees1(com.java.library.core.recursion.GenerateBinaryTreesTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.recursion.GenerateBinaryTreesTest.test(GenerateBinaryTreesTest.java:49)
+	at com.java.library.core.recursion.GenerateBinaryTreesTest.generateAllBinaryTrees1(GenerateBinaryTreesTest.java:23)
+
+generateAllBinaryTrees2(com.java.library.core.recursion.GenerateBinaryTreesTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.recursion.GenerateBinaryTreesTest.test(GenerateBinaryTreesTest.java:49)
+	at com.java.library.core.recursion.GenerateBinaryTreesTest.generateAllBinaryTrees2(GenerateBinaryTreesTest.java:32)
+
+generateAllBinaryTrees3(com.java.library.core.recursion.GenerateBinaryTreesTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<5> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.recursion.GenerateBinaryTreesTest.test(GenerateBinaryTreesTest.java:49)
+	at com.java.library.core.recursion.GenerateBinaryTreesTest.generateAllBinaryTrees3(GenerateBinaryTreesTest.java:44)
+

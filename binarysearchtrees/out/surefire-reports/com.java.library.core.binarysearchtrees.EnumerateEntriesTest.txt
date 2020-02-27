@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.binarysearchtrees.EnumerateEntriesTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.java.library.core.binarysearchtrees.EnumerateEntriesTest
+generateFirst1(com.java.library.core.binarysearchtrees.EnumerateEntriesTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@606d8acf, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@782830e, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@470e2030]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.EnumerateEntriesTest.test(EnumerateEntriesTest.java:47)
+	at com.java.library.core.binarysearchtrees.EnumerateEntriesTest.generateFirst1(EnumerateEntriesTest.java:21)
+
+generateFirst2(com.java.library.core.binarysearchtrees.EnumerateEntriesTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@3fb4f649, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@33833882, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@200a570f, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@16b3fc9e, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@e2d56bf]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.EnumerateEntriesTest.test(EnumerateEntriesTest.java:47)
+	at com.java.library.core.binarysearchtrees.EnumerateEntriesTest.generateFirst2(EnumerateEntriesTest.java:31)
+
+generateFirst3(com.java.library.core.binarysearchtrees.EnumerateEntriesTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@244038d0, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@5680a178, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@5fdef03a, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@3b22cdd0, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@1e81f4dc, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@4d591d15, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@65ae6ba4, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@48cf768c, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@59f95c5d, com.java.library.core.binarysearchtrees.EnumerateEntries$ABSqrt2@5ccd43c2]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.EnumerateEntriesTest.test(EnumerateEntriesTest.java:47)
+	at com.java.library.core.binarysearchtrees.EnumerateEntriesTest.generateFirst3(EnumerateEntriesTest.java:43)
+

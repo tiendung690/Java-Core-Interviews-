@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.binarytree.ComputeKthNodeInorderTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE! - in com.java.library.core.binarytree.ComputeKthNodeInorderTest
+findKthNodeBinaryTree1(com.java.library.core.binarytree.ComputeKthNodeInorderTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=1, left=null, right=null}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.ComputeKthNodeInorderTest.test(ComputeKthNodeInorderTest.java:64)
+	at com.java.library.core.binarytree.ComputeKthNodeInorderTest.findKthNodeBinaryTree1(ComputeKthNodeInorderTest.java:28)
+
+findKthNodeBinaryTree2(com.java.library.core.binarytree.ComputeKthNodeInorderTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=2, left=1, right=null}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.ComputeKthNodeInorderTest.test(ComputeKthNodeInorderTest.java:64)
+	at com.java.library.core.binarytree.ComputeKthNodeInorderTest.findKthNodeBinaryTree2(ComputeKthNodeInorderTest.java:36)
+
+findKthNodeBinaryTree3(com.java.library.core.binarytree.ComputeKthNodeInorderTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=5, left=2, right=2}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.ComputeKthNodeInorderTest.test(ComputeKthNodeInorderTest.java:64)
+	at com.java.library.core.binarytree.ComputeKthNodeInorderTest.findKthNodeBinaryTree3(ComputeKthNodeInorderTest.java:44)
+
+findKthNodeBinaryTree4(com.java.library.core.binarytree.ComputeKthNodeInorderTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=1, left=null, right=null}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.ComputeKthNodeInorderTest.test(ComputeKthNodeInorderTest.java:64)
+	at com.java.library.core.binarytree.ComputeKthNodeInorderTest.findKthNodeBinaryTree4(ComputeKthNodeInorderTest.java:52)
+
+findKthNodeBinaryTree5(com.java.library.core.binarytree.ComputeKthNodeInorderTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=2, left=1, right=null}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.ComputeKthNodeInorderTest.test(ComputeKthNodeInorderTest.java:64)
+	at com.java.library.core.binarytree.ComputeKthNodeInorderTest.findKthNodeBinaryTree5(ComputeKthNodeInorderTest.java:60)
+

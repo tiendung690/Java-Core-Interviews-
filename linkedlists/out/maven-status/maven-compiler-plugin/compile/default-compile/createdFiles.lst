@@ -1,0 +1,13 @@
+com\java\library\core\linkedlist\ListPivot.class
+com\java\library\core\linkedlist\DeleteNode.class
+com\java\library\core\linkedlist\EvenOddMerge.class
+com\java\library\core\linkedlist\TestForOverlappingLists.class
+com\java\library\core\linkedlist\DeleteKthLastNode.class
+com\java\library\core\linkedlist\FindOverlappingWithCycles.class
+com\java\library\core\linkedlist\AddIntegers.class
+com\java\library\core\linkedlist\RemoveDuplicatesFromSortedList.class
+com\java\library\core\linkedlist\TestCyclicity.class
+com\java\library\core\linkedlist\CyclicRightShift.class
+com\java\library\core\linkedlist\Palindromic.class
+com\java\library\core\linkedlist\ReverseSingleSublist.class
+com\java\library\core\linkedlist\MergeSortedLists.class

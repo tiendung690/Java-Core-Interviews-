@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.greedyalgorithm.ThreeSumProblemTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.greedyalgorithm.ThreeSumProblemTest
+hasThreeSum1(com.java.library.core.greedyalgorithm.ThreeSumProblemTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.greedyalgorithm.ThreeSumProblemTest.test(ThreeSumProblemTest.java:44)
+	at com.java.library.core.greedyalgorithm.ThreeSumProblemTest.hasThreeSum1(ThreeSumProblemTest.java:22)
+
+hasThreeSum2(com.java.library.core.greedyalgorithm.ThreeSumProblemTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.greedyalgorithm.ThreeSumProblemTest.test(ThreeSumProblemTest.java:44)
+	at com.java.library.core.greedyalgorithm.ThreeSumProblemTest.hasThreeSum2(ThreeSumProblemTest.java:31)
+

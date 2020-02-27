@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.binarysearchtrees.MinimumHeightBSTTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.binarysearchtrees.MinimumHeightBSTTest
+build1(com.java.library.core.binarysearchtrees.MinimumHeightBSTTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=1, left=0, right=2}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.MinimumHeightBSTTest.test(MinimumHeightBSTTest.java:43)
+	at com.java.library.core.binarysearchtrees.MinimumHeightBSTTest.build1(MinimumHeightBSTTest.java:23)
+
+build2(com.java.library.core.binarysearchtrees.MinimumHeightBSTTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=0, left=1, right=4}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.MinimumHeightBSTTest.test(MinimumHeightBSTTest.java:43)
+	at com.java.library.core.binarysearchtrees.MinimumHeightBSTTest.build2(MinimumHeightBSTTest.java:31)
+
+build3(com.java.library.core.binarysearchtrees.MinimumHeightBSTTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=0, left=1, right=4}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.MinimumHeightBSTTest.test(MinimumHeightBSTTest.java:43)
+	at com.java.library.core.binarysearchtrees.MinimumHeightBSTTest.build3(MinimumHeightBSTTest.java:39)
+

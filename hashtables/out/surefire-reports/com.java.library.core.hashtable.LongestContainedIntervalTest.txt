@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.hashtable.LongestContainedIntervalTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.hashtable.LongestContainedIntervalTest
+longestSubarray1(com.java.library.core.hashtable.LongestContainedIntervalTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<6> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.hashtable.LongestContainedIntervalTest.test(LongestContainedIntervalTest.java:32)
+	at com.java.library.core.hashtable.LongestContainedIntervalTest.longestSubarray1(LongestContainedIntervalTest.java:20)
+
+longestSubarray2(com.java.library.core.hashtable.LongestContainedIntervalTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<5> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.hashtable.LongestContainedIntervalTest.test(LongestContainedIntervalTest.java:32)
+	at com.java.library.core.hashtable.LongestContainedIntervalTest.longestSubarray2(LongestContainedIntervalTest.java:28)
+

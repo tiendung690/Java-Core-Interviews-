@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.binarysearchtrees.FirstGreaterThanTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.binarysearchtrees.FirstGreaterThanTest
+find1(com.java.library.core.binarysearchtrees.FirstGreaterThanTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=1, left=0, right=2}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.FirstGreaterThanTest.test(FirstGreaterThanTest.java:42)
+	at com.java.library.core.binarysearchtrees.FirstGreaterThanTest.find1(FirstGreaterThanTest.java:22)
+
+find2(com.java.library.core.binarysearchtrees.FirstGreaterThanTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=29, left=null, right=31}> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.FirstGreaterThanTest.test(FirstGreaterThanTest.java:42)
+	at com.java.library.core.binarysearchtrees.FirstGreaterThanTest.find2(FirstGreaterThanTest.java:31)
+
+find3(com.java.library.core.binarysearchtrees.FirstGreaterThanTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<BinaryTree{data=0, left=null, right=null}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.FirstGreaterThanTest.test(FirstGreaterThanTest.java:42)
+	at com.java.library.core.binarysearchtrees.FirstGreaterThanTest.find3(FirstGreaterThanTest.java:38)
+

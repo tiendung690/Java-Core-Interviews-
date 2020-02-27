@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.sorting.MergeIntervalsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.sorting.MergeIntervalsTest
+addInterval1(com.java.library.core.sorting.MergeIntervalsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[com.java.library.core.datastructures.Tuple@490d6c15, com.java.library.core.datastructures.Tuple@7d4793a8, com.java.library.core.datastructures.Tuple@449b2d27, com.java.library.core.datastructures.Tuple@5479e3f]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.sorting.MergeIntervalsTest.test(MergeIntervalsTest.java:51)
+	at com.java.library.core.sorting.MergeIntervalsTest.addInterval1(MergeIntervalsTest.java:25)
+
+addInterval2(com.java.library.core.sorting.MergeIntervalsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[com.java.library.core.datastructures.Tuple@27082746, com.java.library.core.datastructures.Tuple@66133adc, com.java.library.core.datastructures.Tuple@7bfcd12c, com.java.library.core.datastructures.Tuple@42f30e0a, com.java.library.core.datastructures.Tuple@24273305, com.java.library.core.datastructures.Tuple@5b1d2887]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.sorting.MergeIntervalsTest.test(MergeIntervalsTest.java:51)
+	at com.java.library.core.sorting.MergeIntervalsTest.addInterval2(MergeIntervalsTest.java:36)
+
+addInterval3(com.java.library.core.sorting.MergeIntervalsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[com.java.library.core.datastructures.Tuple@46f5f779, com.java.library.core.datastructures.Tuple@1c2c22f3, com.java.library.core.datastructures.Tuple@18e8568, com.java.library.core.datastructures.Tuple@33e5ccce, com.java.library.core.datastructures.Tuple@5a42bbf4, com.java.library.core.datastructures.Tuple@270421f5]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.sorting.MergeIntervalsTest.test(MergeIntervalsTest.java:51)
+	at com.java.library.core.sorting.MergeIntervalsTest.addInterval3(MergeIntervalsTest.java:47)
+

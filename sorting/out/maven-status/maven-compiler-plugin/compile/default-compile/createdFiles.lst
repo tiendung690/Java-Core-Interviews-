@@ -1,0 +1,16 @@
+com\java\library\core\sorting\ComputeUnion$Interval$Endpoint.class
+com\java\library\core\sorting\ImplementFastSorting.class
+com\java\library\core\sorting\TeamPhotoDay$Team.class
+com\java\library\core\sorting\TeamPhotoDay$Player.class
+com\java\library\core\sorting\PartitionSortRepeats$Person.class
+com\java\library\core\sorting\ComputeIntersection.class
+com\java\library\core\sorting\MergeSorted.class
+com\java\library\core\sorting\RemoveFirstNameDuplicates$Name.class
+com\java\library\core\sorting\RemoveFirstNameDuplicates.class
+com\java\library\core\sorting\ComputeSalaryThreshold.class
+com\java\library\core\sorting\RenderCalendar.class
+com\java\library\core\sorting\ComputeUnion.class
+com\java\library\core\sorting\MergeIntervals.class
+com\java\library\core\sorting\ComputeUnion$Interval.class
+com\java\library\core\sorting\TeamPhotoDay.class
+com\java\library\core\sorting\PartitionSortRepeats.class

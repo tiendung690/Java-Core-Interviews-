@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.greedyalgorithm.FindMajorityElementTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.greedyalgorithm.FindMajorityElementTest
+majoritySearch1(com.java.library.core.greedyalgorithm.FindMajorityElementTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<a> but was:<>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.greedyalgorithm.FindMajorityElementTest.test(FindMajorityElementTest.java:31)
+	at com.java.library.core.greedyalgorithm.FindMajorityElementTest.majoritySearch1(FindMajorityElementTest.java:19)
+
+majoritySearch2(com.java.library.core.greedyalgorithm.FindMajorityElementTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<a> but was:<>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.greedyalgorithm.FindMajorityElementTest.test(FindMajorityElementTest.java:31)
+	at com.java.library.core.greedyalgorithm.FindMajorityElementTest.majoritySearch2(FindMajorityElementTest.java:27)
+

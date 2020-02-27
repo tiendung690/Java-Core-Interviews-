@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.searching.FindDuplicateAndMissingTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.31 sec <<< FAILURE! - in com.java.library.core.searching.FindDuplicateAndMissingTest
+search1(com.java.library.core.searching.FindDuplicateAndMissingTest)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<com.java.library.core.datastructures.Tuple@7de26db8> but was:<com.java.library.core.datastructures.Tuple@1175e2db>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.searching.FindDuplicateAndMissingTest.test(FindDuplicateAndMissingTest.java:49)
+	at com.java.library.core.searching.FindDuplicateAndMissingTest.search1(FindDuplicateAndMissingTest.java:23)
+
+search2(com.java.library.core.searching.FindDuplicateAndMissingTest)  Time elapsed: 0.147 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<com.java.library.core.datastructures.Tuple@3f102e87> but was:<com.java.library.core.datastructures.Tuple@27abe2cd>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.searching.FindDuplicateAndMissingTest.test(FindDuplicateAndMissingTest.java:49)
+	at com.java.library.core.searching.FindDuplicateAndMissingTest.search2(FindDuplicateAndMissingTest.java:34)
+
+search3(com.java.library.core.searching.FindDuplicateAndMissingTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<com.java.library.core.datastructures.Tuple@5f5a92bb> but was:<com.java.library.core.datastructures.Tuple@6fdb1f78>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.searching.FindDuplicateAndMissingTest.test(FindDuplicateAndMissingTest.java:49)
+	at com.java.library.core.searching.FindDuplicateAndMissingTest.search3(FindDuplicateAndMissingTest.java:45)
+

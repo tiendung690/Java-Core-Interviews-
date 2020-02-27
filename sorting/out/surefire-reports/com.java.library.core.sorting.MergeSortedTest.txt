@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.sorting.MergeSortedTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.java.library.core.sorting.MergeSortedTest
+merge1(com.java.library.core.sorting.MergeSortedTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[3, 5, 7, 11, 13, 17, 19, null]> but was:<[5, 13, 17, null, null, null, null, null]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.sorting.MergeSortedTest.test(MergeSortedTest.java:42)
+	at com.java.library.core.sorting.MergeSortedTest.merge1(MergeSortedTest.java:26)
+
+merge2(com.java.library.core.sorting.MergeSortedTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[1, 2, 3, 4, 5, 6, 7]> but was:<[1, 2, 3, 4, 5, null, null]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.sorting.MergeSortedTest.test(MergeSortedTest.java:42)
+	at com.java.library.core.sorting.MergeSortedTest.merge2(MergeSortedTest.java:37)
+

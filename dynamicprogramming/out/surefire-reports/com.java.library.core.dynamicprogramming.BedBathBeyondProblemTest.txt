@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.dynamicprogramming.BedBathBeyondProblemTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.183 sec <<< FAILURE! - in com.java.library.core.dynamicprogramming.BedBathBeyondProblemTest
+decompose1(com.java.library.core.dynamicprogramming.BedBathBeyondProblemTest)  Time elapsed: 0.024 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[a, man, a, plan, a, canal]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.dynamicprogramming.BedBathBeyondProblemTest.test(BedBathBeyondProblemTest.java:28)
+	at com.java.library.core.dynamicprogramming.BedBathBeyondProblemTest.decompose1(BedBathBeyondProblemTest.java:24)
+

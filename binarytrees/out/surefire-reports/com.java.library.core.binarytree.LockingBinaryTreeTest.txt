@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.binarytree.LockingBinaryTreeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.java.library.core.binarytree.LockingBinaryTreeTest
+lockingBinaryTree(com.java.library.core.binarytree.LockingBinaryTreeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.java.library.core.binarytree.LockingBinaryTreeTest.lockingBinaryTree(LockingBinaryTreeTest.java:19)
+

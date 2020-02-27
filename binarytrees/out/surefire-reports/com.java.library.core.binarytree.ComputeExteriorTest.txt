@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.binarytree.ComputeExteriorTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.138 sec <<< FAILURE! - in com.java.library.core.binarytree.ComputeExteriorTest
+exteriorBinaryTree1(com.java.library.core.binarytree.ComputeExteriorTest)  Time elapsed: 0.023 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[BinaryTree{data=0, left=1, right=2}, BinaryTree{data=1, left=null, right=null}, BinaryTree{data=2, left=null, right=null}]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.ComputeExteriorTest.test(ComputeExteriorTest.java:47)
+	at com.java.library.core.binarytree.ComputeExteriorTest.exteriorBinaryTree1(ComputeExteriorTest.java:24)
+
+exteriorBinaryTree2(com.java.library.core.binarytree.ComputeExteriorTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[BinaryTree{data=4, left=2, right=6}, BinaryTree{data=2, left=1, right=3}, BinaryTree{data=3, left=null, right=null}, BinaryTree{data=5, left=null, right=null}, BinaryTree{data=7, left=null, right=null}, BinaryTree{data=6, left=5, right=7}]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.ComputeExteriorTest.test(ComputeExteriorTest.java:47)
+	at com.java.library.core.binarytree.ComputeExteriorTest.exteriorBinaryTree2(ComputeExteriorTest.java:33)
+
+exteriorBinaryTree3(com.java.library.core.binarytree.ComputeExteriorTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[BinaryTree{data=314, left=6, right=6}, BinaryTree{data=6, left=271, right=561}, BinaryTree{data=271, left=28, right=0}, BinaryTree{data=28, left=null, right=null}, BinaryTree{data=0, left=null, right=null}, BinaryTree{data=17, left=null, right=null}, BinaryTree{data=641, left=null, right=null}, BinaryTree{data=257, left=null, right=null}, BinaryTree{data=28, left=null, right=null}, BinaryTree{data=271, left=null, right=28}, BinaryTree{data=6, left=2, right=271}]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarytree.ComputeExteriorTest.test(ComputeExteriorTest.java:47)
+	at com.java.library.core.binarytree.ComputeExteriorTest.exteriorBinaryTree3(ComputeExteriorTest.java:43)
+

@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.heap.SortIncDecTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.heap.SortIncDecTest
+sort1(com.java.library.core.heap.SortIncDecTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[1, 2, 3, 4, 5, 6, 7, 8, 9]> but was:<[3, 5, 6, 8, 9]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.heap.SortIncDecTest.test(SortIncDecTest.java:32)
+	at com.java.library.core.heap.SortIncDecTest.sort1(SortIncDecTest.java:20)
+
+sort2(com.java.library.core.heap.SortIncDecTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[57, 131, 190, 221, 294, 339, 418, 442, 452, 493]> but was:<[131, 418, 339, 493, 452]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.heap.SortIncDecTest.test(SortIncDecTest.java:32)
+	at com.java.library.core.heap.SortIncDecTest.sort2(SortIncDecTest.java:28)
+

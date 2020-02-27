@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.hashtable.ComputeKMostFrequentTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.hashtable.ComputeKMostFrequentTest
+mostFrequent1(com.java.library.core.hashtable.ComputeKMostFrequentTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [Joan]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsString(AssertUtils.java:91)
+	at com.java.library.core.hashtable.ComputeKMostFrequentTest.test(ComputeKMostFrequentTest.java:47)
+	at com.java.library.core.hashtable.ComputeKMostFrequentTest.mostFrequent1(ComputeKMostFrequentTest.java:23)
+
+mostFrequent2(com.java.library.core.hashtable.ComputeKMostFrequentTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [Mark, Joan]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsString(AssertUtils.java:91)
+	at com.java.library.core.hashtable.ComputeKMostFrequentTest.test(ComputeKMostFrequentTest.java:47)
+	at com.java.library.core.hashtable.ComputeKMostFrequentTest.mostFrequent2(ComputeKMostFrequentTest.java:33)
+
+mostFrequent3(com.java.library.core.hashtable.ComputeKMostFrequentTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [Mark, Joan, Greg]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsString(AssertUtils.java:91)
+	at com.java.library.core.hashtable.ComputeKMostFrequentTest.test(ComputeKMostFrequentTest.java:47)
+	at com.java.library.core.hashtable.ComputeKMostFrequentTest.mostFrequent3(ComputeKMostFrequentTest.java:43)
+

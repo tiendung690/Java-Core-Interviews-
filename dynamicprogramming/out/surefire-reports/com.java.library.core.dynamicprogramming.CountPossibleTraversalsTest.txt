@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE! - in com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest
+numberOfWays1(com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest.test(CountPossibleTraversalsTest.java:59)
+	at com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest.numberOfWays1(CountPossibleTraversalsTest.java:19)
+
+numberOfWays2(com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest.test(CountPossibleTraversalsTest.java:59)
+	at com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest.numberOfWays2(CountPossibleTraversalsTest.java:28)
+
+numberOfWays3(com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<20> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest.test(CountPossibleTraversalsTest.java:59)
+	at com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest.numberOfWays3(CountPossibleTraversalsTest.java:37)
+
+numberOfWays4(com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<35> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest.test(CountPossibleTraversalsTest.java:59)
+	at com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest.numberOfWays4(CountPossibleTraversalsTest.java:46)
+
+numberOfWays5(com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<70> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest.test(CountPossibleTraversalsTest.java:59)
+	at com.java.library.core.dynamicprogramming.CountPossibleTraversalsTest.numberOfWays5(CountPossibleTraversalsTest.java:55)
+

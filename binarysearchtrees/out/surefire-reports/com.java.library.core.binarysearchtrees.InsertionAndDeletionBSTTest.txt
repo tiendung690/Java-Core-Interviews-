@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.binarysearchtrees.InsertionAndDeletionBSTTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.java.library.core.binarysearchtrees.InsertionAndDeletionBSTTest
+test1(com.java.library.core.binarysearchtrees.InsertionAndDeletionBSTTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=2, left=null, right=null}> but was:<BinaryTree{data=1, left=0, right=2}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.InsertionAndDeletionBSTTest.test1(InsertionAndDeletionBSTTest.java:16)
+
+test2(com.java.library.core.binarysearchtrees.InsertionAndDeletionBSTTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=4, left=null, right=null}> but was:<BinaryTree{data=0, left=1, right=4}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.binarysearchtrees.InsertionAndDeletionBSTTest.test2(InsertionAndDeletionBSTTest.java:28)
+

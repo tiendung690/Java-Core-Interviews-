@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.hashtable.ComputeAverageTopThreeTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.java.library.core.hashtable.ComputeAverageTopThreeTest
+findStudent1(com.java.library.core.hashtable.ComputeAverageTopThreeTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Simon]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.hashtable.ComputeAverageTopThreeTest.test(ComputeAverageTopThreeTest.java:42)
+	at com.java.library.core.hashtable.ComputeAverageTopThreeTest.findStudent1(ComputeAverageTopThreeTest.java:26)
+
+findStudent2(com.java.library.core.hashtable.ComputeAverageTopThreeTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Simon]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.library.core.hashtable.ComputeAverageTopThreeTest.test(ComputeAverageTopThreeTest.java:42)
+	at com.java.library.core.hashtable.ComputeAverageTopThreeTest.findStudent2(ComputeAverageTopThreeTest.java:38)
+

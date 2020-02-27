@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.java.library.core.sorting.ComputeIntersectionTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.23 sec <<< FAILURE! - in com.java.library.core.sorting.ComputeIntersectionTest
+intersection1(com.java.library.core.sorting.ComputeIntersectionTest)  Time elapsed: 0.119 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [1, 2, 3, 4, 5, 6]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsInt(AssertUtils.java:75)
+	at com.java.library.core.sorting.ComputeIntersectionTest.test(ComputeIntersectionTest.java:44)
+	at com.java.library.core.sorting.ComputeIntersectionTest.intersection1(ComputeIntersectionTest.java:22)
+
+intersection2(com.java.library.core.sorting.ComputeIntersectionTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [1, 2, 3, 4, 5, 6]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsInt(AssertUtils.java:75)
+	at com.java.library.core.sorting.ComputeIntersectionTest.test(ComputeIntersectionTest.java:44)
+	at com.java.library.core.sorting.ComputeIntersectionTest.intersection2(ComputeIntersectionTest.java:31)
+
+intersection3(com.java.library.core.sorting.ComputeIntersectionTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: [1]
+Actual: []
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.java.library.core.util.AssertUtils.assertSameContentsInt(AssertUtils.java:75)
+	at com.java.library.core.sorting.ComputeIntersectionTest.test(ComputeIntersectionTest.java:44)
+	at com.java.library.core.sorting.ComputeIntersectionTest.intersection3(ComputeIntersectionTest.java:40)
+
